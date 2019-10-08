@@ -1,15 +1,5 @@
 # **PORTFOLIO WEBSITE STYLING GUIDE**
 
-### **++[SJSU Art 74 Spring 2019](https://carriehott.github.io/SJSU-Art74-Sp2019/)++**
-
-[<Back to Tutorials](https://carriehott.github.io/SJSU-Art74-Sp2019/tutorials)
-
-#### **Related Pages:**
-* [HTML/CSS Overview ](https://carriehott.github.io/SJSU-Art74-Sp2019/tutorials/HTML_CSS_Overview)
-* [Portfolio Website Setup](https://carriehott.github.io/SJSU-Art74-Sp2019/tutorials/Portfolio_Setup)
-* [Portfolio Website Content & Writing](https://carriehott.github.io/SJSU-Art74-Sp2019/tutorials/Portfolio_Writing)
-<br>
-
 
 #### **On this page:**
 1. [What Is This Page For?](#what-is-this-page-for)
@@ -193,6 +183,3 @@ In addition to the <title> tag, which shows up in the browser tab, you can also 
 
 <br>
 
-
-
-# [Back To Top](https://carriehott.github.io/SJSU-Art74-Sp2019/tutorials/Portfolio_Styling/)
