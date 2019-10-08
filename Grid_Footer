@@ -1,0 +1,107 @@
+
+# Portfolio Image Grid
+### **You currently have one page for your portfolio, where your work is organized along the center of the page. If you would like to create a grid of images that link to pages of your work, or to act as a menu for different parts of your portfolio, here is one way to do it:**
+
+![Portfolio Grid](images/PortfolioGrid.png)
+
+### The first thing you want to do before creating this page, is prepare your images. The grid is a made up of square images, which is what allows it to line up in a clean way. The square images in the grid are "thumbnail" images, or cropped sections of projects. So, before your add new code, make a set of images for this grid. **[See this tutorial for resizing images](https://carriehott.github.io/SJSU_Art74/tutorials/Portfolio_Content/#resizing-images)**.
+
+### **Creating a grid looks complicated but it simply requires setting up divs (which act like containers) that create rows and columns so the images line up correctly.**
+
+### **After preparing your images... Let's create a new page for the grid:**
+
+![Portfolio Grid](images/Portfolio_Grid_2.png)
+
+### **And copy the code from the portfolio page because most of it is useful:**
+
+![Portfolio Grid](images/Portfolio_Grid_3.png)
+
+### **Save it as a new page:**
+
+![Portfolio Grid](images/Portfolio_Grid_4.png)
+
+### **We won't be using the portfolio-item divs because we will make new ones, so we can delete that section:**
+
+![Portfolio Grid](images/Portfolio_Grid_5.png)
+
+#### **Code to copy to your portfolio_grid.html document below your header. Notice the new divs- row, column, and desc:**
+
+    <div class="row">
+
+    <div class="column"><a href="images/YourArt.jpg" target="_blank">
+    <img src="images/YourArt_Thumbnail.jpg" alt="alt text here" width="400" height="400">
+    </a><div class="desc">Image Title</div></div>
+
+    <div class="column"><a href="images/YourArt.jpg" target="_blank">
+    <img src="images/YourArt_Thumbnail.jpg" alt="alt text here" width="400" height="400">
+    </a><div class="desc">Image Title</div></div>
+
+    <div class="column"><a href="images/YourArt.jpg" target="_blank">
+    <img src="images/YourArt_Thumbnail.jpg" alt="alt text here" width="400" height="400">
+    </a><div class="desc">Image Title</div></div>
+
+    </div>
+
+
+#### **Code to copy to your CSS document below your first body selector. Notice the rules the correspond to the divs:**
+
+      /*  Creates box layout model to all elements, but allowing components to change */
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Create three equal columns that float next to each other */
+          .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+          }
+
+        /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+        /* Styles the description text under each  */
+          .desc {
+            padding: 10px;
+            font-size: 18pt;
+            text-align: center;
+          }
+
+### **Your documents should look like this. Notice in the html code where you need to add your own image names, alt text, and descriptions:**
+
+![Portfolio Grid](images/Portfolio_Grid_6.png)
+
+# Footer
+### We have a header on every page, so another option is a footer, which looks like this:
+
+![Footer](images/Footer_1.png)
+
+### You can add a footer on one, some, or all of your html pages, using the div code below right before your closing < /body > tag:
+
+
+    <div class="footer">
+      <p>&copy; Your Name 2018</p>
+    </div>
+
+
+#### **Code with footer div rule to copy to your CSS page at the very end:**
+
+    /* Style the footer */
+      .footer {
+	       width: 100%;
+	       height: auto;
+	       padding-top: 100px;
+	       text-align: center;
+         font-size: 15pt;
+       }
+
+### Your HTML and CSS page should look like this:
+
+![Footer](images/Footer_2.png)
+
+<br>
+<br>
